@@ -7,6 +7,7 @@
 body{
     
         font-family: 'Poppins', sans-serif;
+        padding-bottom: 40px;
     
 }
 
@@ -15,10 +16,12 @@ body{
     position: relative;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 700px;
     gap: 20px;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 40px;
+    
 }
 .conteiner .primeiro{
     margin-top: 50px;
@@ -32,6 +35,7 @@ body{
     width: 25%;
     text-align: center;
     color: #697077;
+    text-align:justify ;
 }
 .conteiner img{
     height: 50px;
@@ -44,43 +48,89 @@ body{
     background-color: rgb(255, 255, 255);
     width: 300px;
     height: 200px;
-    position: relative;
-    right:320px ;
+    position: absolute;
+    left: 160px;
     padding: 30px;
-    bottom: 80px;
-    box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29);
+    top: 360px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.397);
     border-radius: 5px;
-    border-top: 4px solid #45d3d3;
+    border-top: 5px solid #45d3d3;
+    transition: 0.2s linear;
+    
     
 
 }
+.conteiner  .team:hover{
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.397);
+    width: 310px;
+    height: 210px;
+}
+.conteiner  .calcu:hover{
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.397);
+    width: 310px;
+    height: 210px;
+}
+.conteiner  .super:hover{
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.397);
+    width: 310px;
+    height: 210px;
+}
+.conteiner  .karma:hover{
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.397);
+    width: 310px;
+    height: 210px;
+}
 .conteiner .team{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     width: 300px;
     height: 200px;
     position: relative;
     top: 30px;
     padding: 30px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.397);
+    border-radius: 5px;
+    border-top: 5px solid  #ea5353;
+    transition: 0.2s linear;
+    
 
 }
 .conteiner .calcu{
-    background-color: aqua;
+    transition: 0.2s linear;
+    background-color: rgb(255, 255, 255);
     width: 300px;
     height: 200px;
     position: absolute;
     right: 160px;
     top: 360px;
     padding: 30px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.397);
+    border-radius: 5px;
+    border-top: 5px solid #549ef2;
+    
 
 }
 .conteiner .karma{
-    background-color: aqua;
+    transition: 0.2s linear;
+    background-color: rgb(255, 255, 255);
     width: 300px;
     height: 200px;
-    position: relative;
-   bottom: 190px;
+    position: absolute;
+   top: 500px;
+   margin-bottom: 200px;
    padding: 30px;
+   box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.397);
+   border-radius: 5px;
+   border-top: 5px solid #fcaf4a;
+   
     
     
 
+}
+.conteiner .titulo{
+    margin-bottom: 20px;
+    color: #4c4e61;
+}
+.conteiner .pa{
+    font-size: 13px;
+    color: #697077;
 }
