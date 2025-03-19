@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
 
 
 .conteiner{
@@ -18,7 +18,8 @@
 
 }
 .conteiner .itens1{
-    background-color: #e38826;
+    font-family: 'Lexend Deca';
+    background-color: #e27e12;
     display: inline-block;
     height: 400px;
     width: 300px;
@@ -50,6 +51,7 @@
 .conteiner .texto{
     margin-left: 20px;
     color: rgb(202, 202, 202);
+    font-family: 'Lexend Deca';
     
     
     
